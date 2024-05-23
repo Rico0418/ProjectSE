@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Page</title>
+    <link rel="stylesheet" href="./../CSS/PaymentPage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <img src="./../Assets/e-stay-high-resolution-logo-transparent.png" alt="">
+    </div>
+    <div class="isi">
+        <div class="judul-atas">
+            <h3>Payment</h3>
+        </div>
+        <div class="judul-bawah">
+            <p>Kindly follow the instruction below</p>
+        </div>
+        <div class="detail">
+            <p>Payment transfer:</p>
+            <p>Tax: 10%</p>
+            <p>Sub total: Rp. 300000 </p>
+            <p>Total: Rp. 450000</p>
+        </div>
+        <form id="pilihan" action="#">
+            <div class="pembayaran">
+                <input type="radio" id="bca" name="payment-method">
+                <img src="./../Assets/Bank_Central_Asia.svg.webp" alt="">
+                <label for="bca">Bank Central Asia</label>
+            </div>
+            <div class="pembayaran">
+                <input type="radio" id="gopay" name="payment-method">
+                <img src="./../Assets/Gopay_logo.svg.png" alt="">
+                <label for="gopay">Gopay</label>
+            </div>
+            <div class="pembayaran">
+                <input type="radio" id="ovo" name="payment-method">
+                <img src="./../Assets/Logo_ovo_purple.svg.webp" alt="">
+                <label for="ovo">OVO</label>
+            </div>
+            <div class="pembayaran">
+                <input type="radio" id="bca-credit" name="payment-method">
+                <img src="./../Assets/Bank_Central_Asia.svg.webp" alt="">
+                <label for="bca-credit">BCA Credit</label>
+            </div>
+            <div class="pembayaran">
+                <input type="radio" id="bni-credit" name="payment-method">
+                <img src="./../Assets/BNI_logo.svg.png" alt="">
+                <label for="bni-credit">BNI Credit</label>
+            </div>
+            <div class="button">
+                <button class="btnPay" type="submit">Pay</button>
+                <button class="btnCancel"><a href="#">Cancel</a></button>
+            </div>
+        </form>
+
+    </div>
+</body>
+</html>
